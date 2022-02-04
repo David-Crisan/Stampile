@@ -1,4 +1,6 @@
 
+/* ====  HOME PAGE  ==== */
+
 
 /* -------NAVIGATION BAR-------*/
 .navigation-bar h3 {
@@ -46,6 +48,7 @@
 .fa  {
     display: none!important;
 }
+
 /* -------TITLES-------*/
 
 .titles h1 {
@@ -53,3 +56,72 @@
     font-size:  4.2rem;
     font-weight: 600;
 }
+
+/* ====   STAMPILE PAGE  ==== */
+
+.nav-stampile a {
+    color: floralwhite;
+    font-size: 3rem;
+    text-decoration: none;
+    line-height: 5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.buttons1:hover {
+  color: black;
+  background-color: floralwhite;
+  transition: 0.7s;
+}
+
+/* ==== CONTACTATI-NE PAGE ==== */
+
+.contact-box1 h2 {
+    color: floralwhite;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.contact-box1 p {
+    color: floralwhite;
+    text-align: center;
+}
+
+.contact-box1 a {
+    color: floralwhite;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.contact-paragraph {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+ 
+/* ====    CELE MAI POPULARE PAGE  ==== */
+
+.titles2 h2 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
