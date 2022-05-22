@@ -51,5 +51,6 @@ table {
 html {
     font-family: 'Poppins';
      --main-bgcolor: floralwhite;
+	 height: 100vh;
 }
  

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, minimum-scale=1,  initial-scale=1">
   <link rel="stylesheet" type="text/css" href="layout.css">
   <link rel="stylesheet" type="text/css" href="components.css">
   <link rel="stylesheet" type="text/css" href="base.css">
@@ -19,35 +19,26 @@
      <div class="logo">
        <h3>Stampile la Minut</h3>   
     </div> 
-     <div class="nav-links" id="navLinks">
-         <i class="fa fa-times" onclick="hideMenu()"></i>
+     <div class="nav-links">
         <ul>
-          <li><a href="index.html">Acasa</a></li> 
-          <li><a href="stampile.html">Stampile</a></li> 
-          <li><a href="#">Gravari</a></li> 
-          <li><a href="#">Autocolante</a></li> 
+          <li><a href="contact.html">Acasa</a></li> 
+          <li><a href="contact.html">Stampile</a></li> 
+          <li><a href="gravari.html">Gravari</a></li> 
+          <li><a href="autocolante.html">Autocolante</a></li> 
           <li><a href="contact.html">Contactati-ne</a></li> 
         </ul>  
     </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
+    <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
    </nav> 
-      <!------- JSX ------->
-       <script>
-    var navLinks = document.getElementById("navLinks");
-    
-    function showMenu() {
-      navLinks.style.right = "0";
-    }
-   
-     function hideMenu() {
-      navLinks.style.right = "-50%";
-    }
-    
-  </script>
-     <!------- JSX ------->
- <div class="titles">
-  <h1>Inter Tonic SRL</h1> 
- </div>
- </div>
+      
+     <div class="titles">
+     <h1>Inter Tonic SRL</h1> 
+    </div>
+    <script src="app.js"></script>
+  </div>
 </body>
 </html> 

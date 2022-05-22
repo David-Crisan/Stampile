@@ -1,5 +1,8 @@
 
-/* ====  HOME PAGE  ==== */
+/*------------------------------------*\
+   HOME-PAGE
+\*------------------------------------*/
+
 
 
 /* -------NAVIGATION BAR-------*/
@@ -57,24 +60,9 @@
     font-weight: 600;
 }
 
-/* ====   STAMPILE PAGE  ==== */
-
-.nav-stampile a {
-    color: floralwhite;
-    font-size: 3rem;
-    text-decoration: none;
-    line-height: 5rem;
-    width: 100%;
-    text-align: center;
-}
-
-.buttons1:hover {
-  color: black;
-  background-color: floralwhite;
-  transition: 0.7s;
-}
-
-/* ==== CONTACTATI-NE PAGE ==== */
+/*------------------------------------*\
+  CONTACTATI-NE PAGE
+\*------------------------------------*/
 
 .contact-box1 h2 {
     color: floralwhite;
@@ -98,11 +86,8 @@
     margin-bottom: 2rem;
 }
  
-/* ====    CELE MAI POPULARE PAGE  ==== */
-
-.titles2 h2 {
-    text-align: center;
-    font-size: 2.5rem;
+.telefon {
+    line-height: 2.5rem;
 }
 
 
