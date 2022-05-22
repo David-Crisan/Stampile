@@ -60,6 +60,13 @@
     font-weight: 600;
 }
 
+/* -------FOOTER-------*/
+
+.footer p {
+    color:  var(--main-bgcolor);
+    font-weight: 600;
+    font-size: 13px;
+}
 /*------------------------------------*\
   CONTACTATI-NE PAGE
 \*------------------------------------*/

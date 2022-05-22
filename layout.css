@@ -1,12 +1,12 @@
-/*------------------------------------*\
+ /*------------------------------------*\
    HOME-PAGE
 \*------------------------------------*/
 
 
 .main1 {
     width: 100%;
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.70)), url(assets/COLOP_RANGE.jpg);
+    height: 94vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(assets/COLOP_RANGE.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -36,10 +36,19 @@
 .titles {
      width: 100%;
      display: flex;
-     height: 94vh;
+     height: 88vh;
      align-items: center;
     justify-content: center;
 }
+
+.footer {
+     background-color: black;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
 
 /*------------------------------------*\
   CONTACTATI-NE PAGE
@@ -70,7 +79,6 @@
 
  
  
-
 
 
 
