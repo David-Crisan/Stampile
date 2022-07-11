@@ -1,6 +1,6 @@
 
 /*------------------------------------*\
-   HOME-PAGE
+             HOME-PAGE
 \*------------------------------------*/
 
 
@@ -68,41 +68,137 @@
     font-size: 13px;
 }
 /*------------------------------------*\
-  CONTACTATI-NE PAGE
+        CONTACTATI-NE PAGE
+\*------------------------------------*/
+.contact-text h1 {
+    margin: 1rem;
+    font-weight: 600;
+    font-size: 22px;
+    
+ }
+
+ .contact-text p {
+    font-weight: 600;
+    font-size: 22px;
+    
+ }
+
+ .contact-text h2 {
+    font-weight: 600;
+    font-size: 22px;
+    text-align: center;
+ }
+
+ .contact-links {
+    text-decoration: none;
+    color: black;
+ }
+
+
+/*------------------------------------*\
+             ACASA-PAGE
 \*------------------------------------*/
 
-.contact-box1 h2 {
-    color: floralwhite;
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 2rem;
+body {
+    background-color: black;
 }
-.contact-box1 p {
-    color: floralwhite;
+.acasa-main h1 {
     text-align: center;
+    font-size: 35px;
+    color: var(--main-bgcolor);
+    margin-top: 18px;
 }
 
-.contact-box1 a {
-    color: floralwhite;
-    font-size: 1.5rem;
-    text-align: center;
+.acasa-main {
+    width: 100%;
+    background-color: black;
+    height: 100vh;
 }
 
-.contact-paragraph {
-    margin-top: 1.5rem;
+/*------------------------------------*\
+  STAMPILE PAGE
+\*------------------------------------*/
+
+.text-stampile h1 {
     margin-bottom: 2rem;
+    text-align: center;
+    font-size: 29px;
+    font-weight: 600;
 }
+
+.text-stampile h2 {
+    text-align: center;
+    line-height: 1.6rem;
+    font-size: 20px;
+}
+
+.stampile-numar {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.oferta-stampile h1 {
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+ }
+
+ .stampila-poza {
+    height: 190px;
+ }
+
+ .poza-R30 {
+    margin-top: 2rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
  
-.telefon {
-    line-height: 2.5rem;
-}
+ /*------------------------------------*\
+  GRAVARI PAGE
+\*------------------------------------*/
 
+ .text-gravari {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    line-height: 1.5rem;
+ }
 
+ .text-gravari h1 {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+    font-size: 27px;
+ }
 
+ .text-gravari h2 {
+    font-size: 21.5px;
+    margin-bottom: 1.25rem;
+ }
 
+ .text-gravari h3 {
+    font-size: 19px;
+ }
 
+ .buton-foto {
+    margin-top: 2rem;
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    color: floralwhite;
+    background-color: black;
+    font-family: 'Poppins';
+    border-radius: 3px;
+ }
 
-
+ .button-wrapper {
+    display: flex;
+    justify-content: center;
+ }
 
 
 
