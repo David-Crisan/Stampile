@@ -332,3 +332,153 @@
         margin-top: 2.8rem;
      }
 }
+
+/*------------------------------------*\
+  AUTOCOLANTE PAGE
+\*------------------------------------*/
+
+@media(min-width:350px) {
+    .autocolante-text h1 {
+        font-size: 35px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .autocolante-text h2 {
+        font-size: 25px;
+    }
+    .autocolante-text {
+        line-height: 2.3rem;
+    }
+    .buton-foto {
+        height: 45px;
+        font-size: 25px;
+        width: 210px;
+        margin-top: 2.3rem;
+     }
+}
+
+@media(min-width:400px) {
+    .autocolante-text h1 {
+        font-size: 43px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .autocolante-text h2 {
+        font-size: 31px;
+    }
+    .autocolante-text {
+        line-height: 2.75rem;
+    }
+    .buton-foto {
+        height: 55px;
+        font-size: 25px;
+        width: 250px;
+        margin-top: 2.6rem;
+     }
+}
+
+@media(min-width:1000px) {
+    .autocolante-text h1 {
+        font-size: 45px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .autocolante-text h2 {
+        font-size: 35px;
+    }
+    .autocolante-text {
+        line-height: 3.3rem;
+    }
+    .buton-foto {
+        height: 55px;
+        font-size: 25px;
+        width: 250px;
+        margin-top: 3.5rem;
+     }
+     .autocolante-text {
+        margin-top: 3.6rem;
+     }
+}
+
+/*------------------------------------*\
+   FOTO-AUTOCOLANTE PAGE
+\*------------------------------------*/
+@media(min-width:350px) {
+    .container {
+        margin-top: 1rem;
+        width: 93%;
+        gap: 10px;
+    }
+    .item {
+        height: 180px;
+    }
+}
+
+@media(min-width:410px) {
+    .container {
+        margin-top: 3rem;
+        width: 93%;
+        gap: 6px;
+    }
+    .item {
+        height: 210px;
+    }
+}
+
+@media(min-width:500px) {
+    .container {
+        margin-top: 2rem;
+        width: 93%;
+        gap: 6px;
+    }
+    .item {
+        height: 190px;
+    }
+}
+
+@media(min-width:750px) {
+    .container {
+        margin-top: 2rem;
+        width: 75%;
+        gap: 6px;
+    }
+    .item {
+        height: 190px;
+    }
+}
+
+@media(min-width:900px) {
+    .container {
+        margin-top: 2rem;
+        width: 60%;
+        gap: 6px;
+    }
+    .item {
+        height: 190px;
+    }
+}
+
+@media(min-width:1050px) {
+    .container {
+        margin-top: 2rem;
+        width: 60%;
+        gap: 10px;
+    }
+    .item {
+        height: 190px;
+    }
+}
+
+@media(min-width:1200px) {
+    .container {
+        margin-top: 2rem;
+        width: 50%;
+        gap: 12px;
+    }
+    .item {
+        height: 190px;
+    }
+    .video-gravari {
+        height: 350px;
+    }
+}

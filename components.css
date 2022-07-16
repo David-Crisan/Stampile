@@ -200,9 +200,24 @@ body {
     justify-content: center;
  }
 
+/*------------------------------------*\
+  AUTOCOLANTE PAGE
+\*------------------------------------*/
 
+.autocolante-text h1 {
+    font-size: 23px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.autocolante-text h2 {
+    font-size: 17px;
+}
 
-
+.autocolante-text {
+    width: 90%;
+    margin: auto;
+    line-height: 1.4rem;
+}
 
 
 

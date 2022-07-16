@@ -99,8 +99,31 @@
     font-size: 20px;
  }
 
- 
+/*------------------------------------*\
+   FOTO-AUTOCOLANTE PAGE
+\*------------------------------------*/
 
+ .container {
+   width: 95%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   margin-top: 2rem;
+   gap: 5px;
+ }
+
+ .item { 
+   height: 160px;
+ }
+
+ .autocolante-foto {
+   height: 100%;
+   width: 100%;
+ }
+
+ .video-gravari {
+   width: 200%;
+ }
 
 
 
